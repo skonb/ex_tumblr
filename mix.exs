@@ -41,9 +41,9 @@ defmodule ExTumblr.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:httpoison, "~> 0.8.3"},
+    [{:httpoison, "~> 0.9"},
      {:poison, "~> 2.2"},
-     {:oauther, "~> 1.0.2"},
+     {:oauther, "~> 1.1"},
      {:earmark, "~> 0.1", only: :dev},
      {:ex_doc, "~> 0.11", only: :dev},
      {:dialyze, "~> 0.2", only: [:dev]},
